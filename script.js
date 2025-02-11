@@ -1,12 +1,12 @@
 const websites = {
-            "1": "https://maps.app.goo.gl/KiKgAYwhPcow5itx7",
-            "2": "https://maps.app.goo.gl/i95w4BcthGLmZBpLA",
-            "3": "http://maps.google.com/maps?q=26.37119463+43.92391903+",
-            "4": "https://maps.app.goo.gl/tvb3Qo9mejdzm3Eb8",
-            "5": "https://maps.app.goo.gl/QfBjDMnCpdJ6F8dj8",
-            "6": "http://maps.google.com/maps?q=26.3060244+43.86756262+",
-            "7": "https://maps.app.goo.gl/h9xrtNnBUrk5C2cSA",
-            "8": "https://maps.app.goo.gl/s3mFLqN8TakeyNDi6",
+    "1": "https://maps.app.goo.gl/KiKgAYwhPcow5itx7",
+    "2": "https://maps.app.goo.gl/i95w4BcthGLmZBpLA",
+    "3": "http://maps.google.com/maps?q=26.37119463+43.92391903+",
+    "4": "https://maps.app.goo.gl/tvb3Qo9mejdzm3Eb8",
+    "5": "https://maps.app.goo.gl/QfBjDMnCpdJ6F8dj8",
+    "6": "http://maps.google.com/maps?q=26.3060244+43.86756262+",
+    "7": "https://maps.app.goo.gl/h9xrtNnBUrk5C2cSA",
+    "8": "https://maps.app.goo.gl/s3mFLqN8TakeyNDi6",
             "9": "https://maps.app.goo.gl/pE4isLRD6Q9x8kVk6",
             "10": "http://maps.google.com/maps?q=26.36598888+43.93945962+",
             "11": "https://maps.app.goo.gl/iNVbFhmdeP2STg5N6",
@@ -15,6 +15,8 @@ const websites = {
             "14": "https://maps.app.goo.gl/9trYyVBXfHEnZwab8",
             "15": "http://maps.google.com/maps?q=26.36625075+43.93784535+",
             "16": "https://maps.app.goo.gl/D57yNLgPkQNCHJd1A",
+  "80203": "https://maps.app.goo.gl/srt47M1CnTTtZenMA?g_st=com.google.maps.preview.copy",
+  "66134": "https://maps.app.goo.gl/kq2XySDuBhHbaeFUA?g_st=com.google.maps.preview.copy",
             "17": "https://maps.app.goo.gl/CtFXmkxwPSShKBNN6",
             "18": "https://maps.app.goo.gl/52uRqRZ929qpxpgP6",
             "19": "https://maps.app.goo.gl/MXxG7otoAbuHx4UR8",
@@ -11443,29 +11445,26 @@ const websites = {
             "84100": "https://maps.app.goo.gl/chqqyd9iTN8T5CEp6",
             "84101": "https://maps.app.goo.gl/DCUAERMok5dpimkb9",
             "84102": "https://maps.app.goo.gl/SQb4vg2Khj6ptcpK6",
-  "80203": "https://maps.app.goo.gl/srt47M1CnTTtZenMA?g_st=com.google.maps.preview.copy",
-  "66134": "https://maps.app.goo.gl/kq2XySDuBhHbaeFUA?g_st=com.google.maps.preview.copy",
             "84103": "https://maps.app.goo.gl/JbYisvAgfndnqAhT8",      "4": "https://maps.app.goo.gl/tvb3Qo9mejdzm3Eb8",
-        };
 
-        function searchWebsite() {
-            const searchInput = document.getElementById("searchInput").value.trim().toLowerCase();
-            const resultsContainer = document.getElementById("resultsContainer");
+};
 
-            resultsContainer.innerHTML = "";
 
-            const websiteURL = websites[searchInput];
+function searchWebsite() {
+    const searchInput = document.getElementById("searchInput").value.trim().toLowerCase();
+    const resultsContainer = document.getElementById("resultsContainer");
 
-            if (websiteURL) {
-                const linkElement = document.createElement("a");
-                linkElement.href = websiteURL;
-                linkElement.textContent = "انقر هنا للانتقال إلى الموقع";
-                linkElement.target = "_blank"; // لفتح الرابط في نافذة جديدة
-                resultsContainer.appendChild(linkElement);
-            } else {
-                resultsContainer.textContent = "لم يتم العثور على الموقع المطلوب.";
-            }
-        }
-    </script>
-</body>
-</html>
+    resultsContainer.innerHTML = "";
+
+    const websiteURL = websites[searchInput];
+
+    if (websiteURL) {
+        const linkElement = document.createElement("a");
+        linkElement.href = websiteURL;
+        linkElement.textContent = "انقر هنا للانتقال إلى الموقع";
+        linkElement.target = "_blank"; // لفتح الرابط في نافذة جديدة
+        resultsContainer.appendChild(linkElement);
+    } else {
+        resultsContainer.textContent = "لم يتم العثور على الموقع المطلوب.";
+    }
+}

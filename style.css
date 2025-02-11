@@ -37,7 +37,7 @@ img {
 
 .search-box {
     position: absolute;
-    top: 30%; /* تحريك البحث للأسفل */
+    top: 25%; /* تحريك البحث للأسفل */
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.8);
@@ -65,6 +65,7 @@ button {
     width: 100%;
 }
 
+
 button:hover {
     background-color: #d45a05;
 }
@@ -74,7 +75,19 @@ button:hover {
         top: 70%; /* تعديل الموضع للجوال */
         width: 80%;
     }
-
+.signature {
+    position: absolute; /* لجعل التوقيع غير ثابت */
+    bottom: 10px; /* المسافة من الأسفل */
+    left: 50%; /* وضع التوقيع في المنتصف أفقيًا */
+    transform: translateX(-50%); /* ضبط المركز بدقة */
+    font-size: 14px;
+    color: #000080; /* لون النص */
+    background-color: rgba(255, 255, 255, 0.8); /* خلفية شبه شفافة */
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%; /* لجعل التوقيع يأخذ العرض الكامل */
+}
     img {
         max-width: 90%; /* زيادة حجم الصورة قليلاً على الجوال */
         margin-bottom: 30px; /* زيادة الهامش أسفل الصورة */
