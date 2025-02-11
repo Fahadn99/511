@@ -37,7 +37,7 @@ img {
 
 .search-box {
     position: absolute;
-    top: 50%; /* تحريك البحث للأسفل */
+    top: 70%; /* تحريك البحث للأسفل */
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.8);
