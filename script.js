@@ -20,6 +20,7 @@ const websites = {
             "14": "https://maps.app.goo.gl/9trYyVBXfHEnZwab8",
             "15": "http://maps.google.com/maps?q=26.36625075+43.93784535+",
             "16": "https://maps.app.goo.gl/D57yNLgPkQNCHJd1A",
+    "79601":"https://maps.app.goo.gl/tcFyX1dLrmo7Pv3AA?g_st=com.google.maps.preview.copy",
     "84119": "https://maps.app.goo.gl/KiKgAYwhPcow5itx7",
     "31129": "https://maps.app.goo.gl/i95w4BcthGLmZBpLA",
     "80056": "https://maps.app.goo.gl/tvb3Qo9mejdzm3Eb8",
