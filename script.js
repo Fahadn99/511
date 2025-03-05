@@ -7,37 +7,7 @@ const websites = {
     "6": "http://maps.google.com/maps?q=26.3060244+43.86756262+",
     "7": "https://maps.app.goo.gl/h9xrtNnBUrk5C2cSA",
     "8": "https://maps.app.goo.gl/s3mFLqN8TakeyNDi6",
-    "80378":"https://maps.app.goo.gl/Hz6ek1MNLKhY1pY56?g_st=com.google.maps.preview.copy",
-    "30031":"https://maps.app.goo.gl/Qh6vevdWzfBmXpKn6?g_st=com.google.maps.preview.copy",
-"75927":"https://maps.app.goo.gl/hGEpM1cEuDZaDVfi7?g_st=com.google.maps.preview.copy",
-    "74201":"https://maps.app.goo.gl/9isZF6a7YJtEwy3x9?g_st=com.google.maps.preview.copy",
-"80049":"https://maps.app.goo.gl/2UbD9oqjmLc3TdSP8?g_st=com.google.maps.preview.copy",
-"75927":"https://maps.app.goo.gl/xoRJWbpTkSZkuP8P9?g_st=com.google.maps.preview.copy",
-"30032":"https://maps.app.goo.gl/RH9c55UVs2aEA6fX8?g_st=com.google.maps.preview.copy",
-     "9": "https://maps.app.goo.gl/pE4isLRD6Q9x8kVk6",
-    "83373":"https://maps.app.goo.gl/rBW1iU6xs5mFT3X7A?g_st=com.google.maps.preview.copy",
-"83374":"https://maps.app.goo.gl/4YZQeTw3ZpaiDqRS6?g_st=com.google.maps.preview.copy",
-"83501":"https://maps.app.goo.gl/wZ79Fcm2aYwBrieCA?g_st=com.google.maps.preview.copy",
-"83372":"https://maps.app.goo.gl/qn29qJ2ZrajZSiXa9?g_st=com.google.maps.preview.copy",
-"AF3/19/12 ":"https://maps.app.goo.gl/Nvm3fXr7Qms2zW2V8",
-    "84191":"https://maps.app.goo.gl/iLibh3b1qmLkzn2n7?g_st=com.google.maps.preview.copy",
-"AF3/19/16":"https://maps.app.goo.gl/tptbsS9QAXrkPVZT6",
-"AF3/21":"https://maps.app.goo.gl/YYrZnKsvT16Mp6LW9",
-"AF3/21A/9":"https://maps.app.goo.gl/giS3mzfBiVajdfaW9",
-"AF3/23/20A-5":"https://maps.app.goo.gl/HNusqP6wW6VZQTLi6",
-"AF3/23/4":"https://maps.app.goo.gl/LjfB8tsmUZKvXMhS9",
-"AF3/26/12":"https://maps.app.goo.gl/zvfgJsuR7oajvmFAA",
-"AF3/29/12A-2":"https://maps.app.goo.gl/Jdrgze85DEFkTgv26",
-"AF3/29/17":"https://maps.app.goo.gl/ygpws5kzZgjGsCeJ9",
-"78963":"https://maps.app.goo.gl/oYTwriX4tXgho5rE8?g_st=com.google.maps.preview.copy",
-"75950":"https://maps.app.goo.gl/tXpQFAw5cn7MWH2r5?g_st=com.google.maps.preview.copy",
-    "79225":"https://maps.app.goo.gl/vDLAbMNwutU62B187?g_st=com.google.maps.preview.copy",
-"79601":"https://maps.app.goo.gl/tcFyX1dLrmo7Pv3AA?g_st=com.google.maps.preview.copy",
-"79693":"https://maps.app.goo.gl/uy1QuGrzH9sWgfQK8?g_st=com.google.maps.preview.copy",
-"83224":"https://maps.app.goo.gl/bkc1tVjqYEQdrGgT6?g_st=com.google.maps.preview.copy",
-"83176":"https://maps.app.goo.gl/xuQCVbxZFRdb2hCv5?g_st=com.google.maps.preview.copy",
-"83178":"https://maps.app.goo.gl/nxTptDseTBw7GPX39?g_st=com.google.maps.preview.copy",
-"79138":"https://maps.app.goo.gl/qr7DjGtKno4iuHvM9?g_st=com.google.maps.preview.copy",
+            "9": "https://maps.app.goo.gl/pE4isLRD6Q9x8kVk6",
             "10": "http://maps.google.com/maps?q=26.36598888+43.93945962+",
             "11": "https://maps.app.goo.gl/iNVbFhmdeP2STg5N6",
             "12": "https://maps.app.goo.gl/AZKo5yrcf1Uy3HN28",
@@ -45,78 +15,6 @@ const websites = {
             "14": "https://maps.app.goo.gl/9trYyVBXfHEnZwab8",
             "15": "http://maps.google.com/maps?q=26.36625075+43.93784535+",
             "16": "https://maps.app.goo.gl/D57yNLgPkQNCHJd1A",
- "79601":"https://maps.app.goo.gl/tcFyX1dLrmo7Pv3AA?g_st=com.google.maps.preview.copy",
-"84119": "https://maps.app.goo.gl/KiKgAYwhPcow5itx7",
-    "8801":"https://maps.app.goo.gl/fC9rFrB2XbUKmAvC7?g_st=com.google.maps.preview.copy",
-    "80238":"https://maps.app.goo.gl/YUrVvxQz1EDeDnBG9?g_st=com.google.maps.preview.copy",
-"84153":"https://maps.app.goo.gl/4xEvs8dYx9Sq9dKu6?g_st=com.google.maps.preview.copy",
-"6724":"https://maps.app.goo.gl/QYWKgHU7gqr2QXjf9?g_st=com.google.maps.preview.copy",
-"84118":"https://maps.app.goo.gl/fQw4CDdmdCkJAS4C8?g_st=com.google.maps.preview.copy",
-"8802":"https://maps.app.goo.gl/sRrhR4M52wqYS9i59?g_st=com.google.maps.preview.copy",
-"8803":"https://maps.app.goo.gl/wxnTyo5jP1wV911H9?g_st=com.google.maps.preview.copy",
-"6728":"https://maps.app.goo.gl/xYJGEqDaSVg1zN14A?g_st=iw",
-"6727":"https://maps.app.goo.gl/dPyCtqkuofuZJB7J9?g_st=com.google.maps.preview.copy",
-"6729":"https://maps.app.goo.gl/8PgdX9ZNi6K2LexK7?g_st=com.google.maps.preview.copy",
-"6716":"https://maps.app.goo.gl/hn3HymYSRk62jmga8?g_st=com.google.maps.preview.copy",
-"8814":"https://maps.app.goo.gl/SwunUjBGDZisG1kJ8?g_st=com.google.maps.preview.copy",
-"8805":"https://maps.app.goo.gl/qVCUVanFuTcY4MLY6?g_st=com.google.maps.preview.copy",
-"8807":"https://maps.app.goo.gl/djBmR9hd8NHRKErd9?g_st=com.google.maps.preview.copy",
-"8808":"https://maps.app.goo.gl/wTtfLAMw7H5n6QsN9?g_st=com.google.maps.preview.copy",
-"8809":"https://maps.app.goo.gl/PiCW1GCC9TodKNtu6?g_st=com.google.maps.preview.copy",
-"8810":"https://maps.app.goo.gl/VgDarRDFfK6qWhfp8?g_st=com.google.maps.preview.copy",
-"8811":"https://maps.app.goo.gl/C3zc874FNexA6ttQ6?g_st=com.google.maps.preview.copy",
-"8812":"https://maps.app.goo.gl/K9SSQkvBmFor99HF7?g_st=com.google.maps.preview.copy",
-"8813":"https://maps.app.goo.gl/HGcofnxppbSTZjLZA?g_st=com.google.maps.preview.copy",
-"8815":"https://maps.app.goo.gl/qDejcwbYT7ENLENu7?g_st=com.google.maps.preview.copy",
-"8816":"https://maps.app.goo.gl/UJA6oM7uRfWGmfin6?g_st=com.google.maps.preview.copy",
-"8817":"https://maps.app.goo.gl/EaLJwFxeT9yrnCUx7?g_st=com.google.maps.preview.copy",
-"8818":"https://maps.app.goo.gl/p2kjTeSAQajwc6xR9?g_st=com.google.maps.preview.copy",
-"8820":"https://maps.app.goo.gl/Kzc5xE5EmMJfeZ2x8?g_st=com.google.maps.preview.copy",
-"8824":"https://maps.app.goo.gl/7tQA25iW2urhLj3G8?g_st=com.google.maps.preview.copy",
-"8825":"https://maps.app.goo.gl/SJE6ngUmsCTNWXg2A?g_st=com.google.maps.preview.copy",
-"8826":"https://maps.app.goo.gl/1cGncKbRymtv1Sd97?g_st=com.google.maps.preview.copy",
-"8827":"https://maps.app.goo.gl/xLng56b6Zud2fBYU6?g_st=com.google.maps.preview.copy",
-"8828":"https://maps.app.goo.gl/itatsNbpBj3Ka8tn6?g_st=com.google.maps.preview.copy",
-"8829":"https://maps.app.goo.gl/bLTUQoVzkEZufsVc9?g_st=com.google.maps.preview.copy",
-"8830":"https://maps.app.goo.gl/dCf1APLBJg6GCUJs7?g_st=com.google.maps.preview.copy",
-"7801":"https://maps.app.goo.gl/s1HESdPWUzW1MXU68?g_st=com.google.maps.preview.copy",
-"7802":"https://maps.app.goo.gl/fkgT7nXCLqr2bsU7A?g_st=com.google.maps.preview.copy",
-"7804":"https://maps.app.goo.gl/XNw1DHhnfgJX5Ey99?g_st=com.google.maps.preview.copy",
-"7805":"https://maps.app.goo.gl/tXZ3kEnLA7rvGvEF7?g_st=com.google.maps.preview.copy",
-"7807":"https://maps.app.goo.gl/GQZLvzxQeQEyY9Fx5?g_st=com.google.maps.preview.copy",
-"7808":"https://maps.app.goo.gl/mVDb8JvPWzahMhZ37?g_st=com.google.maps.preview.copy",
-"7809":"https://maps.app.goo.gl/7hjfXCjG7i1PwLKm9?g_st=com.google.maps.preview.copy",
-"7810":"https://maps.app.goo.gl/7hjfXCjG7i1PwLKm9?g_st=com.google.maps.preview.copy",
-"7811":"https://maps.app.goo.gl/EQNCHb66aK1Xb65g8?g_st=com.google.maps.preview.copy",
-"7812":"https://maps.app.goo.gl/FEqRhnNNCA6fywvc6?g_st=com.google.maps.preview.copy",
-"7813":"https://maps.app.goo.gl/NggNQLFxGyUwpB55A?g_st=com.google.maps.preview.copy",
-"7814":"https://maps.app.goo.gl/aGqYgX7u5HqduzCj8?g_st=com.google.maps.preview.copy",
-   "8860":"https://maps.app.goo.gl/55Xs8P4CeXMwxDx96?g_st=com.google.maps.preview.copy",
-"7815":"https://maps.app.goo.gl/pDRTYqnEottyJvdSA?g_st=com.google.maps.preview.copy",
-"7816":"https://maps.app.goo.gl/mUE9mghMndAvJHD17?g_st=com.google.maps.preview.copy",
-"7818":"https://maps.app.goo.gl/wYbokpzwMUtZ1Grq5?g_st=com.google.maps.preview.copy",
-"7819":"https://maps.app.goo.gl/5r5r4iLJYh1viLvC8?g_st=com.google.maps.preview.copy",
-"7823":"https://maps.app.goo.gl/YP5erx6vZ1xxFc3e9?g_st=com.google.maps.preview.copy",
-"7826":"https://maps.app.goo.gl/mSxH3STXeDQNZuxY9?g_st=com.google.maps.preview.copy",
-"7827":"https://maps.app.goo.gl/vN7TFXmWtXMypjwF9?g_st=com.google.maps.preview.copy",
-"7828":"https://maps.app.goo.gl/3T45fvuv3mRTPFZC6?g_st=com.google.maps.preview.copy",
-"7829":"https://maps.app.goo.gl/XyK2xE5ZvDfgUeHY8?g_st=com.google.maps.preview.copy",
-"7833":"https://maps.app.goo.gl/V6SxS8hEMdpoeEtv6?g_st=com.google.maps.preview.copy",
-"7840":"https://maps.app.goo.gl/RUa3F3KrS2nRJY8w7?g_st=com.google.maps.preview.copy",
-"7841":"https://maps.app.goo.gl/2FcM72kRqdN8QVsL9?g_st=com.google.maps.preview.copy",
-"7843":"https://maps.app.goo.gl/Df19ngRyzQGmkjJs5?g_st=com.google.maps.preview.copy",
-"7844":"https://maps.app.goo.gl/dymn7LoAyuGUu1xY6?g_st=com.google.maps.preview.copy",
-"7845":"https://maps.app.goo.gl/VUizYB76ajsviacP9?g_st=com.google.maps.preview.copy",
-"7847":"https://maps.app.goo.gl/NirzJcyYY2NsMH8r8?g_st=com.google.maps.preview.copy",
-"7848":"https://maps.app.goo.gl/AsYydNU1GY8umHEK7?g_st=com.google.maps.preview.copy",
-"7849":"https://maps.app.goo.gl/xoNovXowwDZX4JMn8?g_st=com.google.maps.preview.copy",
-"7855":"https://maps.app.goo.gl/cbyPKgqk8QTj5kM78?g_st=com.google.maps.preview.copy",
-"7803":"https://maps.app.goo.gl/xZxXgwrXpqYkGs4C6?g_st=com.google.maps.preview.copy",
-"7851":"https://maps.app.goo.gl/uNavnJS6sGgSs9cS7?g_st=com.google.maps.preview.copy",
-"31129": "https://maps.app.goo.gl/i95w4BcthGLmZBpLA",
- "80056": "https://maps.app.goo.gl/tvb3Qo9mejdzm3Eb8",
- "29019": "https://maps.app.goo.gl/QfBjDMnCpdJ6F8dj8",
- "31516": "https://maps.app.goo.gl/h9xrtNnBUrk5C2cSA",
   "80203": "https://maps.app.goo.gl/srt47M1CnTTtZenMA?g_st=com.google.maps.preview.copy",
   "66134": "https://maps.app.goo.gl/kq2XySDuBhHbaeFUA?g_st=com.google.maps.preview.copy",
             "17": "https://maps.app.goo.gl/CtFXmkxwPSShKBNN6",
@@ -1772,14 +1670,6 @@ const websites = {
             "60484": "http://maps.google.com/maps?q=26.37698836+43.97924835+",
             "60487": "http://maps.google.com/maps?q=26.32966084+43.95555217+",
             "60488": "https://maps.app.goo.gl/FPsisaC3gahxznHc7",
-    "83525":"https://maps.app.goo.gl/soaZbwSJ7dmPR73L7?g_st=com.google.maps.preview.copy",
-"83524":"https://maps.app.goo.gl/sgVNGfHnzEcRuHW7A?g_st=com.google.maps.preview.copy",
-"83523":"https://maps.app.goo.gl/9efGq5VcunNn7SUS9?g_st=com.google.maps.preview.copy",
-"83523":"https://maps.app.goo.gl/dzoxwC3HNoH3xfPM6?g_st=com.google.maps.preview.copy",
-"80273":"https://maps.app.goo.gl/bTKrQBgn6BLuJeXY7?g_st=com.google.maps.preview.copy",
-"29451":"https://maps.app.goo.gl/LhCDNLCkugtfSZcm8?g_st=com.google.maps.preview.copy",
-"29455":"https://maps.app.goo.gl/LhCDNLCkugtfSZcm8?g_st=com.google.maps.preview.copy",
-"29454":"https://maps.app.goo.gl/LhCDNLCkugtfSZcm8?g_st=com.google.maps.preview.copy",
             "60489": "http://maps.google.com/maps?q=26.26101337+44.01650391+",
             "60490": "https://www.google.com/maps?q=26.396611,43.890929&shorturl=1",
             "60491": "http://maps.google.com/maps?q=26.34789115+43.97851458+",
@@ -3010,7 +2900,7 @@ const websites = {
             "61855": "http://maps.google.com/maps?q=26.29766285+43.94785968+",
             "61857": "http://maps.google.com/maps?q=26.3865131+43.92548442+",
             "61858": "http://maps.google.com/maps?q=26.35374621+43.96560985+",
-    "61859":"https://maps.app.goo.gl/TqJcNBVDA6mHSQhF8?g_st=com.google.maps.preview.copy",
+            "61859": "http://maps.google.com/maps?q=26.25941505+44.02103377+",
             "61860": "http://maps.google.com/maps?q=26.36375794+43.95683913+",
             "61861": "http://maps.google.com/maps?q=26.22290915+44.03739043+",
             "61862": "http://maps.google.com/maps?q=26.30336606+44.04126465+",
@@ -11555,26 +11445,61 @@ const websites = {
             "84100": "https://maps.app.goo.gl/chqqyd9iTN8T5CEp6",
             "84101": "https://maps.app.goo.gl/DCUAERMok5dpimkb9",
             "84102": "https://maps.app.goo.gl/SQb4vg2Khj6ptcpK6",
-            "84103": "https://maps.app.goo.gl/JbYisvAgfndnqAhT8",      "4": "https://maps.app.goo.gl/tvb3Qo9mejdzm3Eb8",
+            "84103": "https://maps.app.goo.gl/JbYisvAgfndnqAhT8",      "AF3-10-10": "https://maps.app.goo.gl/tvb3Qo9mejdzm3Eb8",
 
 };
 
-
+// دالة البحث
 function searchWebsite() {
-    const searchInput = document.getElementById("searchInput").value.trim().toLowerCase();
+    const searchInput = document.getElementById("searchInput").value.trim().toLowerCase().replace(/-/g, "");
     const resultsContainer = document.getElementById("resultsContainer");
 
     resultsContainer.innerHTML = "";
 
-    const websiteURL = websites[searchInput];
+    let found = false;
+    for (const key in websites) {
+        if (key.toLowerCase().replace(/-/g, "") === searchInput) {
+            const linkElement = document.createElement("a");
+            linkElement.href = websites[key];
+            linkElement.textContent = "انقر هنا للانتقال إلى الموقع";
+            linkElement.target = "_blank";
+            resultsContainer.appendChild(linkElement);
+            found = true;
+            break;
+        }
+    }
 
-    if (websiteURL) {
-        const linkElement = document.createElement("a");
-        linkElement.href = websiteURL;
-        linkElement.textContent = "انقر هنا للانتقال إلى الموقع";
-        linkElement.target = "_blank"; // لفتح الرابط في نافذة جديدة
-        resultsContainer.appendChild(linkElement);
-    } else {
+    if (!found) {
         resultsContainer.textContent = "لم يتم العثور على الموقع المطلوب.";
     }
 }
+
+// دالة البحث بالصوت
+function startVoiceSearch() {
+    if (!("SpeechRecognition" in window || "webkitSpeechRecognition" in window)) {
+        alert("عذرًا، المتصفح الخاص بك لا يدعم ميزة البحث بالصوت.");
+        return;
+    }
+
+    const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+    recognition.lang = "ar"; // تعيين اللغة العربية
+    recognition.interimResults = false; // نتائج نهائية فقط
+    recognition.maxAlternatives = 1; // نتيجة واحدة فقط
+
+    recognition.start(); // بدء التعرف على الكلام
+
+    recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript.trim().toLowerCase();
+        document.getElementById("searchInput").value = transcript; // تعبئة حقل البحث بالنص
+        searchWebsite(); // تنفيذ البحث تلقائيًا
+    };
+
+    recognition.onerror = (event) => {
+        console.error("حدث خطأ أثناء التعرف على الكلام:", event.error);
+        alert("حدث خطأ أثناء التعرف على الكلام. يرجى المحاولة مرة أخرى.");
+    };
+}
+// البحث التلقائي عند الكتابة
+document.getElementById("searchInput").addEventListener("input", function() {
+    searchWebsite();
+});
