@@ -11959,6 +11959,7 @@ const websites = {
 "QW4-799-361-222-8":"https://www.google.com/maps?q=27.441854,43.546516",
 "QW4-799-383":"https://www.google.com/maps?q=27.374451,43.615101",
 "QW4-819":"https://www.google.com/maps?q=27.221859,43.504707",
+    "QM4-77":"https://maps.app.goo.gl/hM2SKexJVnAZkR538?g_st=com.google.maps.preview.copy",
 "QW4-846A-1A":"https://www.google.com/maps?q=27.235952,43.479233",
 "QW4-850-2":"https://www.google.com/maps?q=27.236719,43.475487",
 "QW4-855":"https://www.google.com/maps?q=27.239552,43.471046",
