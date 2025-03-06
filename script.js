@@ -56,6 +56,7 @@ const websites = {
 "53":"http://maps.google.com/maps?q=26.32063434+43.95569212+",
 "54":"http://maps.google.com/maps?q=26.35794067+43.95325494+",
     "75545":"https://maps.app.goo.gl/95Bv6Fpp9sXHZ2wn8?g_st=ic",
+    "62707":"https://maps.app.goo.gl/bKq5iDs9biDo42ot6?g_st=com.google.maps.preview.copy",
 "55":"http://maps.google.com/maps?q=26.32706151+43.95471572+",
 "56":"http://maps.google.com/maps?q=26.32815307+43.95734456+",
 "57":"http://maps.google.com/maps?q=26.32584932+43.96053478+",
