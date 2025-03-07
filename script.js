@@ -12031,6 +12031,7 @@ const websites = {
 "QW8-231":"https://www.google.com/maps?q=26.629930,43.533951",
 "QW8-256-2A":"https://www.google.com/maps?q=26.610590,43.549507",
 "QW8-256-4":"https://www.google.com/maps?q=26.610941,43.550198",
+    "QW8-58":"https://maps.app.goo.gl/wn7fSqQySw1LKo5u7?g_st=com.google.maps.preview.copy",
 "QW8-318A":"https://maps.app.goo.gl/7fgLLiCfZUXneC5x6?g_st=com.google.maps.preview.copy",
 "QW8-380-23-36":"https://maps.app.goo.gl/eS96rpVDnXZzKWhH9?g_st=com.google.maps.preview.copy",
 "QW8-58A":"https://www.google.com/maps?q=26.780739,43.475224",
