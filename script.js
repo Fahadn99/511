@@ -7805,6 +7805,7 @@ const websites = {
 "78082":"http://maps.google.com/maps?q=26.32961407+43.9081394+",
 "78083":"http://maps.google.com/maps?q=26.41246449+43.89723777+",
 "78084":"https://maps.app.goo.gl/Rp85z16Y4fW7v3ui6",
+    "79548":"https://maps.app.goo.gl/8qdL7Cd2iLMKpzJv6?g_st=com.google.maps.preview.copy",
 "78085":"http://maps.google.com/maps?q=26.30806894+44.03864164+",
 "78086":"http://maps.google.com/maps?q=26.32068888+44.01638281+",
 "78087":"http://maps.google.com/maps?q=26.44244627+43.86665879+",
