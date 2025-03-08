@@ -440,6 +440,7 @@ const websites = {
 "463":"http://maps.google.com/maps?q=26.36477307+43.96022637+",
 "464":"http://maps.google.com/maps?q=26.36635155+43.95803012+",
 "465":"http://maps.google.com/maps?q=26.36089074+43.95180602+",
+    "466":"https://maps.app.goo.gl/a5HhyaRVDkaXxWqt9?g_st=com.google.maps.preview.copy",
 "467":"http://maps.google.com/maps?q=26.35720979+43.94927725+",
 "468":"http://maps.google.com/maps?q=26.35518288+43.9506433+",
 "469":"https://www.google.com/maps?q=26.361993,43.97417&shorturl=1",
