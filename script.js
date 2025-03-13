@@ -7,6 +7,8 @@ const websites = {
 "80204":"https://maps.app.goo.gl/FQLLQ2dk258eQDMZ8?g_st=com.google.maps.preview.copy",
 "80205":"https://maps.app.goo.gl/FQLLQ2dk258eQDMZ8?g_st=com.google.maps.preview.copy",
     "AF4-15A":"https://maps.app.goo.gl/MP2DRGXsMg5tvSiM6?g_st=com.google.maps.preview.copy",
+    "AP2-138-1A":"https://maps.app.goo.gl/tT6NEZLcf4u8zSBF8?g_st=com.google.maps.preview.copy",
+"1105":"https://maps.app.goo.gl/7ACCFB1YMQEmz4Xs6?g_st=com.google.maps.preview.copy",
 "AF4/7-15A":"https://maps.app.goo.gl/MP2DRGXsMg5tvSiM6?g_st=com.google.maps.preview.copy",
 "2":"https://maps.app.goo.gl/i95w4BcthGLmZBpLA",
 "3":"http://maps.google.com/maps?q=26.37119463+43.92391903+",
