@@ -1,6 +1,8 @@
 const websites = {
 "1":"https://maps.app.goo.gl/KiKgAYwhPcow5itx7",
 "2":"https://maps.app.goo.gl/i95w4BcthGLmZBpLA",
+"AP10-70-2A":"https://maps.app.goo.gl/Hy89pKvhQXFW2kAe6?g_st=ic",
+"Ap6-131":"https://maps.app.goo.gl/QjaTzAzuYEnJyTqv7?g_st=iw",
 "75611":"https://maps.google.com?q=26.4656070,43.6506730&entry=gps&lucs=,94224825,94227247,94227248,94231188,47071704,47069508,94218641,94203019,47084304,94208458,94208447&g_st=com.google.maps.preview.copy",
 "75614":"https://maps.google.com?q=26.4665278,43.6503056&entry=gps&lucs=,94224825,94227247,94227248,94231188,47071704,47069508,94218641,94203019,47084304,94208458,94208447&g_st=com.google.maps.preview.copy",
 "75613":"https://maps.app.goo.gl/VJLEV6L2iX36kiz89?g_st=com.google.maps.preview.copy",
