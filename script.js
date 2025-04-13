@@ -1537,7 +1537,7 @@ const websites = {
 "60268":"https://www.google.com/maps?q=26.3386774671455,43.970899553947&shorturl=1",
 "60270":"http://maps.google.com/maps?q=26.36036821+43.95193983+",
 "60272":"http://maps.google.com/maps?q=26.27532008+43.97293991+",
-"60273":"http://maps.app.goo.gl/m654FN7zpsXoPvhr9?g_st=com.google.maps.preview.copy,
+"60273":"http://maps.app.goo.gl/m654FN7zpsXoPvhr9?g_st=com.google.maps.preview.copy",
 "60275":"http://maps.google.com/maps?q=26.384203+43.98211514+",
 "60276":"http://maps.google.com/maps?q=26.38815249+43.97551856+",
 "60277":"http://maps.google.com/maps?q=26.36013712+43.97814662+",
