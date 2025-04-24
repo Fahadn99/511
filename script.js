@@ -1,6 +1,8 @@
 const websites = {
 "1":"https://maps.app.goo.gl/KiKgAYwhPcow5itx7",
 "2":"https://maps.app.goo.gl/i95w4BcthGLmZBpLA",
+"65035":"https://maps.app.goo.gl/ZCkJe6uMdigYF72p7?g_st=ic",
+"80051":"https://maps.app.goo.gl/tJm6WpnhX9QWBdPF8?g_st=ic",
 "78496":"https://maps.app.goo.gl/Np1HKaitJmv2JkxM7?g_st=ic",
 "79494":"https://maps.app.goo.gl/htCD5wXjC8DWGaQs6?g_st=ic",
 "84231":"https://maps.app.goo.gl/Nrz8pRrmFQ5yffom6?g_st=ic",
@@ -3816,7 +3818,7 @@ const websites = {
 "62687":"http://maps.google.com/maps?q=26.40934664+43.92622938+",
 "62688":"http://maps.google.com/maps?q=26.42085909+43.9127394+",
 "62689":"https://www.google.com/maps?q=26.2984978603431,44.0409723245224&shorturl=1",
-"62690":"https://maps.app.goo.gl/9UNe1ncWAuTHSPKo6",
+"62690":"https://maps.app.goo.gl/rnL8Gmz77M252M6s9?g_st=ic",
 "62691":"http://maps.google.com/maps?q=26.36014482+43.90493172+",
 "62692":"https://www.google.com/maps?q=26.3870105070216,43.952630064388&shorturl=1",
 "62693":"http://maps.google.com/maps?q=26.40840243+43.92842557+",
