@@ -7612,7 +7612,7 @@ const websites = {
 "75459":"http://maps.google.com/maps?q=27.42327953+43.58138125+",
 "75460":"http://maps.google.com/maps?q=26.3606427+44.06522067+",
 "75468":"http://maps.google.com/maps?q=26.21718757+43.92843673+",
-"75470":"https://maps.app.goo.gl/wKiXfMn3B5cscZzc9",
+"75470":"https://maps.app.goo.gl/cHkGzoQ3x67Serdm8?g_st=ic",
 "75471":"http://maps.google.com/maps?q=26.87126882+44.1660444+",
 "75477":"http://maps.google.com/maps?q=26.32529754+44.23488348+",
 "75479":"http://maps.google.com/maps?q=26.47888343+43.62417046+",
