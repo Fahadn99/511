@@ -9076,7 +9076,7 @@ const websites = {
 "78787":"http://maps.google.com/maps?q=26.30416164+43.89075565+",
 "78788":"http://maps.google.com/maps?q=26.37728284+43.91383784+",
 "78789":"http://maps.google.com/maps?q=26.3957891+43.89019268+",
-"78790":"http://maps.google.com/maps?q=26.21547171+44.13122978+",
+"78790":"https://goo.gl/maps/m4DBMddXHQ8GYcoX9",
 "78791":"http://maps.google.com/maps?q=26.32074096+44.0150509+",
 "78792":"http://maps.google.com/maps?q=26.35842829+43.96716448+",
 "78794":"https://www.google.com/maps?q=26.3859375867352,43.8632613110632&shorturl=1",
