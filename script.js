@@ -1,6 +1,7 @@
 const websites = {
 "1":"https://maps.app.goo.gl/KiKgAYwhPcow5itx7",
 "2":"https://maps.app.goo.gl/i95w4BcthGLmZBpLA",
+"84253":"https://maps.app.goo.gl/dRmKnDVgx2hC3xDw8?g_st=ic",
 "84254":"https://maps.app.goo.gl/zpzUQ1v4YKtbBnJG7?g_st=ic",
 "84145":"https://maps.app.goo.gl/Gpyo1HGpCVV9tb3e8?g_st=ic",
 "84144":"https://maps.app.goo.gl/JAjMASM5WJ1EPaLBA?g_st=ic",
@@ -20,7 +21,7 @@ const websites = {
 "QM10-448-3-49A-21-18-2-9":"https://maps.app.goo.gl/3Q3vK4hU5BApGJKv7?g_st=ic",
 "QM10-434":"https://maps.app.goo.gl/cF3iYiFrtZsixb73A?g_st=ic",
 "QM10-428-2":"https://maps.app.goo.gl/Gjur6C4ePmZTk3P59?g_st=ic",
-"QM10-371-54-1":"https://maps.app.goo.gl/e7NXxLCjacPkJKm88?g_st=ic",
+"QM10-371-54-1":"https://maps.app.goo.gl/uYoYw13z6e8hQRb97?g_st=com.google.maps.preview.copy",
 "QM4-248-4":"https://maps.app.goo.gl/dVMijXxGVUTQ9foA9?g_st=ic",
 "AP2-64-188-1":"https://maps.app.goo.gl/DHKRXKc3sK4BYA7B7?g_st=ic",
 "AP2-138-35":"https://maps.app.goo.gl/2gEwVhRyJmkXfXHT8?g_st=ic",
