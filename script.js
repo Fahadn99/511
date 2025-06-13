@@ -6665,6 +6665,7 @@ const websites = {
 "66712":"http://maps.google.com/maps?q=26.34476404+43.94359316+",
 "66713":"http://maps.google.com/maps?q=26.31689544+43.88490862+",
 "66714":"http://maps.google.com/maps?q=26.37358728+43.91878848+",
+"66715":"https://maps.app.goo.gl/LcZJ6f6KDzxwxejR7?g_st=ic",
 "66716":"http://maps.google.com/maps?q=26.38751874+43.90747838+",
 "66717":"http://maps.google.com/maps?q=26.39597095+43.91584262+",
 "66718":"http://maps.google.com/maps?q=26.27091636+43.92222578+",
