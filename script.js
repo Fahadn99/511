@@ -10510,6 +10510,7 @@ const websites = {
 "79604":"https://maps.app.goo.gl/NmQqimTXq4eR1Zrk9",
 "79607":"https://maps.app.goo.gl/TZBtT9EBbQtFykaG6?g_st=com.google.maps.preview.copy",
 "79609":"http://maps.google.com/maps?q=27.45217249+43.56793242+",
+"79612":"https://maps.app.goo.gl/L78h1fVxHMWHDBj97?g_st=iw",
 "79615":"https://maps.app.goo.gl/hvNLnM8ePrGSzqLF6?g_st=com.google.maps.preview.copy",
 "79621":"https://maps.app.goo.gl/6zu2ZTRS9xVq6A6u9?g_st=com.google.maps.preview.copy",
 "79630":"http://maps.google.com/maps?q=26.40147443+43.92153454+",
