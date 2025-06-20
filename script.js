@@ -10110,7 +10110,7 @@ const websites = {
 "79060":"http://maps.google.com/maps?q=26.34798858+43.95076744+",
 "79061":"http://maps.google.com/maps?q=26.33017378+43.93915816+",
 "79062":"http://maps.google.com/maps?q=26.43993641+43.86610874+",
-"79063":"https://maps.app.goo.gl/DqVtjJJ5QwdJGPJw5",
+"79063ارامكو":"https://maps.app.goo.gl/DqVtjJJ5QwdJGPJw5",
 "79064":"https://maps.app.goo.gl/fri6HP7toPMUJFin6",
 "79066":"http://maps.google.com/maps?q=26.23190108+44.0112026+",
 "79067":"https://www.google.com/maps?q=26.3700913957836,44.0024885498293&shorturl=1",
