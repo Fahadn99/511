@@ -16425,83 +16425,86 @@ const searchInput = document.getElementById("searchInput");
 const resultsContainer = document.getElementById("resultsContainer");
 const suggestionsContainer = document.getElementById("suggestions");
 
-// البحث التلقائي مع تأخير
+// البحث التلقائي مع تأخير (debounce)
 let searchTimer;
-searchInput.addEventListener("input", function () {
-  clearTimeout(searchTimer);
-  searchTimer = setTimeout(() => {
-    showSuggestions(this.value.trim());
-  }, 300);
+searchInput.addEventListener("input", function() {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+        showSuggestions(this.value.trim());
+    }, 300); // تأخير 300 مللي ثانية
 });
 
-// ضغط Enter
-searchInput.addEventListener("keypress", function (e) {
-  if (e.key === "Enter") {
-    performSearch(this.value.trim());
-    suggestionsContainer.style.display = "none";
-  }
+// ضغط Enter في حقل البحث
+searchInput.addEventListener("keypress", function(e) {
+    if (e.key === "Enter") {
+        performSearch(this.value.trim());
+        suggestionsContainer.style.display = "none"; // إخفاء الاقتراحات
+    }
 });
 
 // إخفاء الاقتراحات عند النقر خارج الحقل
-document.addEventListener("click", function (e) {
-  if (!searchInput.contains(e.target) && !suggestionsContainer.contains(e.target)) {
-    suggestionsContainer.style.display = "none";
-  }
+document.addEventListener("click", function(e) {
+    if (!searchInput.contains(e.target) && !suggestionsContainer.contains(e.target)) {
+        suggestionsContainer.style.display = "none";
+    }
 });
 
 function showSuggestions(searchTerm) {
-  suggestionsContainer.innerHTML = "";
-  suggestionsContainer.style.display = "none";
+    suggestionsContainer.innerHTML = "";
+    suggestionsContainer.style.display = "none";
 
-  if (!searchTerm) {
-    return;
-  }
+    if (!searchTerm) {
+        return;
+    }
 
-  const matchingKeys = Object.keys(websites).filter(key =>
-    key.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+    // البحث عن المفاتيح المطابقة
+    const matchingKeys = Object.keys(websites).filter(key =>
+        key.toLowerCase().includes(searchTerm.toLowerCase())
+    );
 
-  const limitedKeys = matchingKeys.slice(0, 5);
-
-  if (limitedKeys.length > 0) {
-    limitedKeys.forEach(key => {
-      const suggestionItem = document.createElement("div");
-      suggestionItem.textContent = key;
-      suggestionItem.className = "suggestion-item";
-      suggestionItem.addEventListener("click", () => {
-        searchInput.value = key;
-        performSearch(key);
-        suggestionsContainer.style.display = "none";
-      });
-      suggestionsContainer.appendChild(suggestionItem);
-    });
-    suggestionsContainer.style.display = "block";
-  }
+    if (matchingKeys.length > 0) {
+        matchingKeys.forEach(key => {
+            const suggestionItem = document.createElement("div");
+            suggestionItem.textContent = key;
+            suggestionItem.className = "suggestion-item";
+            suggestionItem.addEventListener("click", () => {
+                searchInput.value = key;
+                performSearch(key);
+                suggestionsContainer.style.display = "none";
+            });
+            suggestionsContainer.appendChild(suggestionItem);
+        });
+        suggestionsContainer.style.display = "block";
+    }
 }
 
 function performSearch(searchTerm) {
-  resultsContainer.innerHTML = "<p>جارٍ البحث...</p>";
-
-  if (!searchTerm) {
-    resultsContainer.innerHTML = "<p>الرجاء إدخال كلمة للبحث</p>";
-    resultsContainer.className = "error-message";
-    return;
-  }
-
-  const foundKey = Object.keys(websites).find(key =>
-    key.toLowerCase() === searchTerm.toLowerCase()
-  );
-
-  if (foundKey) {
     resultsContainer.innerHTML = "";
-    const linkElement = document.createElement("a");
-    linkElement.href = websites[foundKey];
-    linkElement.textContent = "انقر هنا للانتقال إلى الموقع";
-    linkElement.target = "_blank";
-    linkElement.className = "result-link";
-    resultsContainer.appendChild(linkElement);
-  } else {
-    resultsContainer.innerHTML = "<p>لم يتم العثور على الموقع المطلوب.</p>";
-    resultsContainer.className = "error-message";
-  }
+
+    if (!searchTerm) {
+        return;
+    }
+
+    // البحث مع عدم التحسس لحالة الأحرف
+    const foundKey = Object.keys(websites).find(key => 
+        key.toLowerCase() === searchTerm.toLowerCase()
+    );
+
+    if (foundKey) {
+        const linkElement = document.createElement("a");
+        linkElement.href = websites[foundKey];
+        linkElement.textContent = "انقر هنا للانتقال إلى الموقع";
+        linkElement.target = "_blank";
+        linkElement.className = "result-link";
+        resultsContainer.appendChild(linkElement);
+    } else {
+        resultsContainer.textContent = "لم يتم العثور على الموقع المطلوب.";
+        resultsContainer.className = "error-message";
+    }
+}
+
+// زر البحث (إذا كنت تستخدمه)
+function searchWebsite() {
+    performSearch(searchInput.value.trim());
+    suggestionsContainer.style.display = "none";
 }
