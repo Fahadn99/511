@@ -1,5 +1,6 @@
 const websites = {
 "1":"https://maps.app.goo.gl/KiKgAYwhPcow5itx7",
+"37397":"https://maps.app.goo.gl/Gu2ySogCLDNQzH5p8?g_st=ic",
 "2":"https://maps.app.goo.gl/i95w4BcthGLmZBpLA",
 "3":"http://maps.google.com/maps?q=26.37119463°43.92391903°",
 "4":"https://maps.app.goo.gl/tvb3Qo9mejdzm3Eb8",
