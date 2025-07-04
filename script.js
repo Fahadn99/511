@@ -16420,23 +16420,88 @@ const websites = {
 "КАЗ-2А":"https://maps.app.goo.gl/jiqJo2jJRGKbyg9U8",
 
     };
+// عناصر DOM
+const searchInput = document.getElementById("searchInput");
+const resultsContainer = document.getElementById("resultsContainer");
+const suggestionsContainer = document.getElementById("suggestions");
 
+// البحث التلقائي مع تأخير
+let searchTimer;
+searchInput.addEventListener("input", function () {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => {
+    showSuggestions(this.value.trim());
+  }, 300);
+});
 
-function searchWebsite() {
-    const searchInput = document.getElementById("searchInput").value.trim().toLowerCase();
-    const resultsContainer = document.getElementById("resultsContainer");
+// ضغط Enter
+searchInput.addEventListener("keypress", function (e) {
+  if (e.key === "Enter") {
+    performSearch(this.value.trim());
+    suggestionsContainer.style.display = "none";
+  }
+});
 
+// إخفاء الاقتراحات عند النقر خارج الحقل
+document.addEventListener("click", function (e) {
+  if (!searchInput.contains(e.target) && !suggestionsContainer.contains(e.target)) {
+    suggestionsContainer.style.display = "none";
+  }
+});
+
+function showSuggestions(searchTerm) {
+  suggestionsContainer.innerHTML = "";
+  suggestionsContainer.style.display = "none";
+
+  if (!searchTerm) {
+    return;
+  }
+
+  const matchingKeys = Object.keys(websites).filter(key =>
+    key.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
+  const limitedKeys = matchingKeys.slice(0, 5);
+
+  if (limitedKeys.length > 0) {
+    limitedKeys.forEach(key => {
+      const suggestionItem = document.createElement("div");
+      suggestionItem.textContent = key;
+      suggestionItem.className = "suggestion-item";
+      suggestionItem.addEventListener("click", () => {
+        searchInput.value = key;
+        performSearch(key);
+        suggestionsContainer.style.display = "none";
+      });
+      suggestionsContainer.appendChild(suggestionItem);
+    });
+    suggestionsContainer.style.display = "block";
+  }
+}
+
+function performSearch(searchTerm) {
+  resultsContainer.innerHTML = "<p>جارٍ البحث...</p>";
+
+  if (!searchTerm) {
+    resultsContainer.innerHTML = "<p>الرجاء إدخال كلمة للبحث</p>";
+    resultsContainer.className = "error-message";
+    return;
+  }
+
+  const foundKey = Object.keys(websites).find(key =>
+    key.toLowerCase() === searchTerm.toLowerCase()
+  );
+
+  if (foundKey) {
     resultsContainer.innerHTML = "";
-
-    const websiteURL = websites[searchInput];
-
-    if (websiteURL) {
-        const linkElement = document.createElement("a");
-        linkElement.href = websiteURL;
-        linkElement.textContent = "انقر هنا للانتقال إلى الموقع";
-        linkElement.target = "_blank"; // لفتح الرابط في نافذة جديدة
-        resultsContainer.appendChild(linkElement);
-    } else {
-        resultsContainer.textContent = "لم يتم العثور على الموقع المطلوب.";
-    }
+    const linkElement = document.createElement("a");
+    linkElement.href = websites[foundKey];
+    linkElement.textContent = "انقر هنا للانتقال إلى الموقع";
+    linkElement.target = "_blank";
+    linkElement.className = "result-link";
+    resultsContainer.appendChild(linkElement);
+  } else {
+    resultsContainer.innerHTML = "<p>لم يتم العثور على الموقع المطلوب.</p>";
+    resultsContainer.className = "error-message";
+  }
 }
