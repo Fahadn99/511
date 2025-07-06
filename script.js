@@ -4,7 +4,6 @@ const websites = {
 "80000":"https://maps.app.goo.gl/1bSsyhkK3qmi8aJK7?g_st=iw",
 "31129":"https://maps.app.goo.gl/eQjDZ12QQ3YK8jg86?g_st=iw",
 "31109":"https://maps.app.goo.gl/J4v6K5yX3AQek99t7?g_st=iw",
-    
 "2":"https://maps.app.goo.gl/i95w4BcthGLmZBpLA",
 "3":"http://maps.google.com/maps?q=26.37119463°43.92391903°",
 "4":"https://maps.app.goo.gl/tvb3Qo9mejdzm3Eb8",
