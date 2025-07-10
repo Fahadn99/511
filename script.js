@@ -12443,6 +12443,7 @@ const websites = {
 "80762":"https://maps.app.goo.gl/vUrYhNZrmr1SbUCz8?g_st=ic",
 "80763":"https://maps.app.goo.gl/NA1k1RFKRTSywyYEA?g_st=ic",
 "80764":"https://maps.app.goo.gl/fNR1D5fSfDBEf8nSA?g_st=ic",
+"80765":"https://maps.app.goo.gl/aypz77arxrUYJ3556?g_st=ic",
 "81074":"http://maps.google.com/maps?q=26.57815488°43.47240639°",
 "81140":"https://maps.app.goo.gl/Nz24EQWLkYXWxSsLA?g_st=ic",
 "82044":"https://maps.app.goo.gl/7GL1RTWnsNPPFw856?g_st=com.google.maps.preview.copy",
