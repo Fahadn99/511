@@ -15193,6 +15193,7 @@ const websites = {
 "AW1-87":"https://www.google.com/maps?q=26.994791,44.150131",
 "AW1-AW12(SW4)":"https://www.google.com/maps?q=26.970264,44.101383",
 "AW1-SW4":"https://maps.app.goo.gl/jNFVrRYXdwnc58CCA?g_st=com.google.maps.preview.copy",
+"AW5-597B":"https://maps.app.goo.gl/HJ2dhjm9ztCmchnx9?g_st=ic",
 "AW2/5_631_1":"https://maps.app.goo.gl/QU1ENKBz53GHRrv6A?g_st=com.google.maps.preview.copy",
 "AW2/5-101":"https://maps.app.goo.gl/sT7AXP6owhdZUq8m7?g_st=com.google.maps.preview.copy",
 "AW2/5-102":"https://maps.app.goo.gl/8kHsxj5K5dVaoShJ6?g_st=com.google.maps.preview.copy",
