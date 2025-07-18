@@ -1,5 +1,6 @@
 const websites = {
 "1":"https://maps.app.goo.gl/KiKgAYwhPcow5itx7",
+"73467":"https://maps.app.goo.gl/7RvJ8atD5mkoTF5z5?g_st=ic",
 "AP8-105A":"https://maps.app.goo.gl/tQ9mNu6cEbWbu7eH7?g_st=ic",
 "AP7-131-2B":"https://maps.app.goo.gl/SHkFGqv5Rai3Z3dWA?g_st=ic",
 "31146":"https://maps.app.goo.gl/s2mR4Ly9sscveM4n7?g_st=ic",
@@ -12522,6 +12523,7 @@ const websites = {
 "80670":"https://maps.app.goo.gl/fkRuKR9KAHRVUtji6",
 "80757":"https://maps.app.goo.gl/FicURVnBQzpwd4bLA?g_st=ic",
 "80758":"https://maps.app.goo.gl/FicURVnBQzpwd4bLA?g_st=ic",
+"80736":"https://maps.app.goo.gl/neq9ieQMadytA5EH9?g_st=ic",
 "80759":"https://maps.app.goo.gl/svgE1XR5q6t3FAhK9?g_st=ic",
 "80760":"https://maps.app.goo.gl/sgLZT9zCAbdLpb5BA?g_st=ic",
 "80761":"https://maps.app.goo.gl/E6b8TqjC4yDTFnT97?g_st=ic",
