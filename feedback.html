@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إدارة كهرباء القصيم - إضافة وتعديل مواقع المعدات </title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-FCJQ9RJQ0V');
+  </script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://www2.0zz0.com/2025/04/09/19/540933648.png" alt="شعار إدارة كهرباء القصيم">
+    </div>
+    <div class="nav-links">
+      <a href="index.html" class="operation-link">الصفحة الرئيسية</a>
+      <a href="operations.html" class="pen-btn-inline"aria-label="قسم التشغيل">
+                  <svg width="18" height="18" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="14" height="2.5" rx="1.2" fill="#CC7722"></rect><rect x="3" y="8" width="10" height="2" rx="1" fill="#CC7722"></rect><rect x="3" y="12" width="7" height="1.5" rx="0.8" fill="#CC7722"></rect><circle cx="16" cy="15.5" r="1.2" fill="#CC7722"></circle></svg>
+
+      <a href="feedback.html" class="pen-btn-inline" aria-label="هنا إضافةأو تعديل مواقع المعدات">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z" fill="#CC7722"/>
+        </svg>
+      </a>
+    </div>
+  </header>
+  <main>
+    <section class="container">
+      <h1>هنا إضافةأو تعديل مواقع المعدات</h1>
+      <p style="font-size: 0.9rem; color: #ffffffff; margin-bottom: 10px;">
+        </p>
+      <div class="feedback-form">
+        <label for="feedbackType">نوع الإدخال:</label>
+        <select id="feedbackType" aria-label="اختر نوع الإدخال">
+          <option value="إضافة">إضافة معدة جديدة</option>
+          <option value="تصحيح">تصحيح موقع معدة</option>
+        </select>
+        <label for="equipmentType">نوع المعدة:</label>
+        <select id="equipmentType" aria-label="اختر نوع المعدة">
+          <option value="">اختر نوع المعدة</option>
+          <option value="RMU">RMU</option>
+          <option value="محول">محول</option>
+          <option value="أخرى">أخرى</option>
+        </select>
+        <label for="equipmentCode">رقم المعدة:</label>
+        <input type="text" id="equipmentCode" placeholder="أدخل رقم المعدة " aria-label="رقم المعدة">
+        <label for="equipmentLink">رابط خرائط Google:</label>
+        <input type="text" id="equipmentLink" placeholder="أدخل رابط خرائط Google" aria-label="رابط خرائط Google">
+        <label for="correctionReason" id="correctionReasonLabel" style="display: none;">سبب التعديل (إجباري):</label>
+        <textarea id="correctionReason" rows="4" placeholder="أدخل سبب التعديل (مثل: موقع خاطئ)" style="display: none;" aria-label="سبب التعديل"></textarea>
+        <button id="submitFeedback" type="submit">إرسال</button>
+        <button id="resetForm" type="button">إعادة تعيين</button>
+      </div>
+      <div id="feedbackMsg"></div>
+    </section>
+  </main>
+  <footer>
+    <p>تصميم وتطوير © فهد الفهيد | 109096</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
