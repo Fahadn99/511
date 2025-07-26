@@ -131,24 +131,24 @@ function showSuggestions(searchTerm) {
     return;
   }
 
-  const matchingKeys = Object.keys(websites)
-    .filter(key => key.toLowerCase().includes(searchTerm.toLowerCase()))
-    .slice(0, 5);
+  const matchingKeys = Object.keys(websites).filter(key =>
+        key.toLowerCase().includes(searchTerm.toLowerCase())
+    );
 
-  if (matchingKeys.length > 0) {
-    matchingKeys.forEach(key => {
-      const suggestionItem = document.createElement("div");
-      suggestionItem.textContent = key;
-      suggestionItem.className = "suggestion-item";
-      suggestionItem.addEventListener("click", () => {
-        searchInput.value = key;
-        performSearch(key);
-        suggestionsContainer.style.display = "none";
-      });
-      suggestionsContainer.appendChild(suggestionItem);
-    });
-    suggestionsContainer.style.display = "block";
-  }
+    if (matchingKeys.length > 0) {
+        matchingKeys.forEach(key => {
+            const suggestionItem = document.createElement("div");
+            suggestionItem.textContent = key;
+            suggestionItem.className = "suggestion-item";
+            suggestionItem.addEventListener("click", () => {
+                searchInput.value = key;
+                performSearch(key);
+                suggestionsContainer.style.display = "none";
+            });
+            suggestionsContainer.appendChild(suggestionItem);
+        });
+        suggestionsContainer.style.display = "block";
+    }
 }
 
 function performSearch(searchTerm) {
