@@ -1212,10 +1212,10 @@
 "84345":"http://maps.google.com/maps?q=26.94563744°43.22753351°",
 "84347":"http://maps.google.com/maps?q=26.94596071°43.23268097°",
 "84347":"http://maps.google.com/maps?q=26.94545133°43.24637265°",
-"84348":"http://maps.google.com/maps?q=26.94406451°43.25718402°",
+"84348":"https://maps.app.goo.gl/g8eoXCT8noPUDSNX6?g_st=ic",
 "84349":"http://maps.google.com/maps?q=26.94290637°43.2634238°",
-"84350":"http://maps.google.com/maps?q=26.94087554°43.27054829°",
-"84351":"http://maps.google.com/maps?q=26.93900984°43.27369391°",
+"84350":"https://maps.app.goo.gl/Jm5fmc15yf5KW3cy7?g_st=ic",
+"84351":"https://maps.app.goo.gl/Y8ms7tHBzAthWRs89?g_st=ic",
 "84356":"http://maps.google.com/maps?q=26.94694545°43.18962278°",
 "84357":"http://maps.google.com/maps?q=26.95102906°43.15106075°",
 "84358":"http://maps.google.com/maps?q=26.93974096°43.13748308°",
@@ -2740,3 +2740,4 @@
 "83334مستشفى الحبيب":"https://maps.app.goo.gl/SDhNoMUF7yaMmE8S7?g_st=iw",
     "4314قصر الامير فيصل بن مشعل":"https://maps.app.goo.gl/c5aJs7kNrbdvsM7d6?g_st=ic"
 }
+
