@@ -1573,10 +1573,10 @@
 "66279":"http://maps.google.com/maps?q=26.30401949°44.07854468°",
 "66282":"http://maps.google.com/maps?q=26.34262182°43.96021696°",
 "66284":"http://maps.google.com/maps?q=26.36960594°43.93059688°",
-"66285":"http://maps.google.com/maps?q=26.2802211°43.92706409°",
+"66285":"https://maps.app.goo.gl/ucX2dB1iweiTnao5A?g_st=ic",
 "66286":"http://maps.google.com/maps?q=26.23404297°44.0301861°",
 "66287":"http://maps.google.com/maps?q=26.3593822°43.99619177°",
-"66289":"https://www.google.com/maps?q=26.2768300997359,44.0354563029407&shorturl=1",
+"66289":"https://maps.app.goo.gl/yzrS3iN5JUY6dDsG8?g_st=ic",
 "66290":"http://maps.google.com/maps?q=26.35343249°43.89290045°",
 "66291":"https://www.google.com/maps?q=26.3245147409235,43.9732028200885&shorturl=1",
 "66292":"http://maps.google.com/maps?q=26.40883484°43.9336208°",
@@ -1614,7 +1614,7 @@
 "66328":"http://maps.google.com/maps?q=26.2720233°43.95002828°",
 "66330":"http://maps.google.com/maps?q=26.32219362°43.93302533°",
 "66331":"http://maps.google.com/maps?q=26.35992561°43.92596891°",
-"66332":"https://www.google.com/maps?q=26.3672168387824,44.0308355354484&shorturl=1",
+"66332":"https://maps.app.goo.gl/h3uJNsJDzDUCv6PM6?g_st=ic",
 "66333":"http://maps.google.com/maps?q=26.34513766°43.98785803°",
 "66335":"http://maps.google.com/maps?q=26.38633637°43.9622786°",
 "66336":"http://maps.google.com/maps?q=26.38640005°43.96242113°",
@@ -1630,7 +1630,7 @@
 "66347":"http://maps.google.com/maps?q=26.35514072°43.91237974°",
 "66348":"http://maps.google.com/maps?q=26.39920312°43.91615757°",
 "66350":"http://maps.google.com/maps?q=26.31389286°44.02847954°",
-"66351":"https://www.google.com/maps?q=26.327340768898,44.039643018682&shorturl=1",
+"66351":"https://maps.app.goo.gl/cwoi58TsV7FEjJVdA?g_st=ic",
 "66352":"http://maps.google.com/maps?q=26.33012734°43.99773475°",
 "66354":"http://maps.google.com/maps?q=26.28938809°43.89795826°",
 "66355":"http://maps.google.com/maps?q=26.39286363°43.92088885°",
@@ -3000,4 +3000,5 @@
 "71043":"https://maps.app.goo.gl/SWKC1Uae79v5D4Q48?g_st=ic",
 "71044":"https://maps.app.goo.gl/SWKC1Uae79v5D4Q48?g_st=ic"
 }
+
 
