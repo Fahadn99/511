@@ -1,6 +1,13 @@
 { 
 "1105LBS":"http://maps.google.com/maps?q=26.29636837°44.02402706°",
 "NG4-1":"https://maps.app.goo.gl/UXx6QFZtFUsfpigD9?g_st=ic",
+"QM4-110A":"https://maps.app.goo.gl/Sm5YTMephEpZKhxe9?g_st=ic",
+"QM4-111B":"https://maps.app.goo.gl/6ev4bjy8zBGn7qrX7?g_st=ic",
+"QM4-125":"https://maps.app.goo.gl/TLFDdhYEWVgVBmfUA?g_st=ic",
+"QM4-134-6":"https://maps.app.goo.gl/eWVxLkPsjBYHHPiv6?g_st=ic",
+"QM4-162A-100-1-1":"https://maps.app.goo.gl/WiE1rE7M5iv6QQkt6?g_st=ic",
+"QM4-162A-98":"https://maps.app.goo.gl/c2vRqgQ2AQocmpEm6?g_st=ic",
+"QM10-258-97-142-2":"https://maps.app.goo.gl/HVdXbNX85HZvZRDr9?g_st=ic",
 "QM11-126":"https://maps.app.goo.gl/JMbWTrpy4tjBykk57?g_st=ic",
 "QM10-101-11":"https://maps.app.goo.gl/38Ag2iWkjF3EEEZv7?g_st=ipc",
 "AF7-349-360-4":"https://maps.app.goo.gl/cJZK37VMDqKtgbg87?g_st=ipc",
@@ -1678,9 +1685,10 @@
 "QM10-258-146-70-61":"https://maps.app.goo.gl/tWYt6guNGEn7g7ui7?g_st=ic",
 "QM10-258-3":"https://maps.app.goo.gl/8jXH4bw188D4NdG56?g_st=ic",
 "QM10-258-3":"https://maps.app.goo.gl/UtkJJB9FDb2ETXkA6?g_st=ic",
-"QM10-258-54-2":"https://maps.app.goo.gl/54GTG4tmAn3HC3jf9?g_st=ic",
-"QM10-258-54A-2":"https://maps.app.goo.gl/KpE672PnhkYV4CMD6?g_st=com.google.maps.preview.copy",
+"QM10-258-54-2":"https://maps.app.goo.gl/wq2KLXzVB218LWf8A?g_st=ic",
+"QM10-258-54A-2":"https://maps.app.goo.gl/wq2KLXzVB218LWf8A?g_st=ic",
 "QM10-258-54A-8":"https://maps.app.goo.gl/gqSzLUUnqTNL2v1M7?g_st=ic",
+"QM10-258-97-5":"https://maps.app.goo.gl/dXnsE2xfw6FBtVvq9?g_st=ic",
 "QM10-258-97-102":"https://maps.app.goo.gl/VSj83H1EZthvbKMTA?g_st=ic",
 "QM10-258-97-184":"https://maps.app.goo.gl/ASTURyQ696Ex4TYv8?g_st=com.google.maps.preview.copy",
 "QM10-258-97-186-1":"https://maps.app.goo.gl/atZ3ygEx79krTQ1P9?g_st=ic",
@@ -2230,6 +2238,7 @@
 "КА3-6":"https://maps.app.goo.gl/qpejoza8oYpeohZ66",
 "КАЗ-2А":"https://maps.app.goo.gl/jiqJo2jJRGKbyg9U8"
 }
+
 
 
 
