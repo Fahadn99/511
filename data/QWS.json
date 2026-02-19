@@ -2753,12 +2753,12 @@
 "79351":"http://maps.google.com/maps?q=26.37344957°43.959274°",
 "79352":"http://maps.google.com/maps?q=26.37299271°43.95837731°",
 "79358":"http://maps.google.com/maps?q=26.38072463°43.95467259°",
-"79382":"http://maps.google.com/maps?q=44.014267°26.310754°",
-"79383":"http://maps.google.com/maps?q=44.027257°26.270951°",
-"79384":"http://maps.google.com/maps?q=26.38430316°43.94654691°",
-"79385":"https://www.google.com/maps?q=26.22116,44.13998&shorturl=1",
+"79382":"https://maps.app.goo.gl/TEy6gSv5vKMRo4Ta8?g_st=ic",
+"79383":"https://maps.app.goo.gl/v8YQCT8JAy3aWj7z8?g_st=ic",
+"79384":"https://maps.app.goo.gl/yARJemWtQKXKcT3J9?g_st=ic",
+"79385":"https://maps.app.goo.gl/JMvuZQGTNRvNAzCu7?g_st=ic",
 "79386":"https://www.google.com/maps?q=26.22116,44.13998&shorturl=1",
-"79387":"http://maps.google.com/maps?q=26.39561965°43.89940977°",
+"79387":"https://maps.app.goo.gl/yARJemWtQKXKcT3J9?g_st=ic",
 "79388":"http://maps.google.com/maps?q=26.34070974°44.02055338°",
 "79389":"https://www.google.com/maps?q=26.394046,43.938334&shorturl=1",
 "79390":"http://maps.google.com/maps?q=26.41553822°43.90632399°",
@@ -3000,6 +3000,7 @@
 "79660":"https://maps.app.goo.gl/Kcv51bSpVXCbrbQ18?g_st=com.google.maps.preview.copy",
 "79661":"https://maps.app.goo.gl/z1Q4J7MLmgjtHSqC7?g_st=com.google.maps.preview.copy"
 }
+
 
 
 
