@@ -584,3 +584,42 @@ footer {
 #feedbackMsg.error {
   color: #d63031;
 }
+
+/* كرت النتيجة */
+.result-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* الرقم */
+.result-number {
+  font-size: 18px;
+  font-weight: bold;
+  color: #003366;
+}
+
+/* الوصف (حصر / فنار) */
+.result-desc {
+  font-size: 14px;
+  color: #666;
+}
+
+/* زر فتح */
+.result-btn {
+  background: linear-gradient(to left, #0d6efd, #ff8c00);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.result-btn:hover {
+  opacity: 0.85;
+}
