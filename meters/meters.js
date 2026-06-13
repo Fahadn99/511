@@ -128,20 +128,35 @@ function renderResults(items) {
   resultsBox.innerHTML = "";
 
   items.forEach(item => {
-    const row = document.createElement("div");
-    row.className = "result-row";
 
-    const text = document.createElement("span");
-    text.textContent = item.label;
+    const card = document.createElement("div");
+    card.className = "result-card";
 
-    const link = document.createElement("a");
-    link.href = item.url;
-    link.target = "_blank";
-    link.textContent = "فتح";
+    // الرقم
+    const number = document.createElement("div");
+    const baseNumber = cleanNumber(item.label);
+    const suffix = item.label.replace(baseNumber, "");
 
-    row.appendChild(text);
-    row.appendChild(link);
-    resultsBox.appendChild(row);
+    number.className = "result-number";
+    number.textContent = baseNumber;
+
+    // الوصف (حصر / فنار)
+    const desc = document.createElement("div");
+    desc.className = "result-desc";
+    desc.textContent = suffix;
+
+    // زر فتح
+    const button = document.createElement("a");
+    button.href = item.url;
+    button.target = "_blank";
+    button.className = "result-btn";
+    button.textContent = "فتح";
+
+    card.appendChild(number);
+    card.appendChild(desc);
+    card.appendChild(button);
+
+    resultsBox.appendChild(card);
   });
 }
 
