@@ -173,13 +173,31 @@ function performSearch(searchTerm) {
   );
 
   if (foundKey) {
+
     resultsContainer.innerHTML = "";
+
+    const value = websites[foundKey];
+
+    let finalUrl = "";
+
+    // الطريقة القديمة
+    if (typeof value === "string" && value.startsWith("http")) {
+      finalUrl = value;
+    }
+
+    // الطريقة الجديدة (إحداثيات)
+    else if (typeof value === "string") {
+      finalUrl = `https://www.google.com/maps?q=${value}`;
+    }
+
     const linkElement = document.createElement("a");
-    linkElement.href = websites[foundKey];
+    linkElement.href = finalUrl;
     linkElement.textContent = "انقر هنا للانتقال إلى الموقع";
     linkElement.target = "_blank";
     linkElement.className = "result-link";
+
     resultsContainer.appendChild(linkElement);
+
   } else {
     resultsContainer.innerHTML = "<p>لم يتم العثور على الموقع المطلوب.</p>";
     resultsContainer.className = "error-message";
