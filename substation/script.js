@@ -7,6 +7,7 @@ function loadWebsitesData() {
 
   const files = [
     './data/QBS.json',
+    './data/LBS.json',
     './data/QRS.json',
     './data/QUS.json',
     './data/QWS.json',
